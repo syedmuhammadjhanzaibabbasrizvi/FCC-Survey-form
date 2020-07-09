@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">My Survey FORM PAge</h1>
+      <p id="description">
+        I am making this Form page because it is my project on Free code camp.
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="lone">
+        <label id="name-label"
+          >Name<input
+            required
+            class="ione"
+            type="text"
+            id="name"
+            placeholder="Enter your name..."
+            name="label-name"
+        /></label>
+      </div>
+      <div class="lone">
+        <label id="email-label"
+          >Email
+          <input
+            required
+            class="ione"
+            type="email"
+            placeholder="Enter your email..."
+            id="email"
+            name="email"
+        /></label>
+      </div>
+      <div class="lone">
+        <label id="number-label"
+          >Age(optional)
+          <input
+            required
+            class="ione"
+            type="number"
+            id="number"
+            name="number"
+            placeholder="Age"
+            min="10"
+            max="99"
+        /></label>
+      </div>
+      <div class="lone">
+        <label>Qualification</label>
+        <select id="dropdown" class="ione">
+          <option disabled selected value>Your current education</option>
+          <option value="matric">Matric</option>
+          <option value="intermediate">intermediate</option>
+          <option value="master's">Master's</option>
+          <option value="Gradiuation">Gradiuation</option>
+          <option></option>
+        </select>
+      </div>
+      <div class="lone">
+        <p>Which feild are you interested?</p>
+        <label class="n"
+          ><input type="radio" id="name-label" name="radio" value="1" />
+          Engineering</label
+        >
+        <label class="n"
+          ><input type="radio" id="email-label" name="radio" value="0" />
+          Programming</label
+        >
+      </div>
+      <div class="lone">
+        <label>In which feild are u interested?</label>
+        <select id="dropdown" class="ione">
+          <option disabled selected value>Feild</option>
+          <option value="defense">Defense </option>
+          <option value="health">Health</option>
+          <option value="social">Social Worker</option>
+          <option value="politicion">politicion</option>
+        </select>
+      </div>
+      <div class="lone">
+        <p>What would you like to see improved?</p>
+        <label class="n"
+          ><input type="checkbox" value="background" /> Background</label
+        >
+        <label class="n"><input type="checkbox" value="Font" />Font</label>
+        <label class="n"><input type="checkbox" value="image" /> Image</label>
+        <label class="n"><input type="checkbox" value="Form" />Form</label>
+      </div>
+      <div class="lone">
+        <p>
+          Any Comments or suggestions?
+        </p>
+        <textarea
+          class="comment"
+          placeholder="Enter your comment here.."
+        ></textarea>
+      </div>
+      <div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>

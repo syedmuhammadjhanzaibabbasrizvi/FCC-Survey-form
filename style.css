@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url(https://source.unsplash.com/user/erondu/1600x1600);
+
+  font-family: "Courier New", Courier, monospace;
+}
+#title {
+  text-align: center;
+  margin-top: 20px;
+}
+#description {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bolder;
+}
+#survey-form {
+  margin-top: 40px;
+  margin-left: 410px;
+  width: 700px;
+  height: 1080px;
+  background-color: #7473bc62;
+}
+.lone {
+  display: block;
+  padding-top: 40px;
+  margin-left: 40px;
+  font-weight: bolder;
+  font-size: large;
+}
+.ione {
+  display: block;
+  margin-top: 5px;
+  height: 30px;
+  width: 600px;
+  border-radius: 3px;
+  border-style: none;
+}
+.n {
+  display: block;
+  padding-top: 10px;
+}
+input {
+  padding-left: 10px;
+}
+.comment {
+  margin-top: 5px;
+  height: 130px;
+  width: 600px;
+}
+#submit {
+  border: #7473bc62;
+  width: 600px;
+  margin-top: 5px;
+  margin-left: 40px;
+  padding: 9px;
+  background-color: rgb(55, 175, 101);
+}
